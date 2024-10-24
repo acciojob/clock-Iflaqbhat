@@ -18,6 +18,6 @@ hours = hours % 12 || 12; // Convert 0 (midnight) or 12 (noon) to 12-hour format
 // Format the date and time
 const formattedDate = `${day}/${month}/${year}`;
 const formattedTime = `${hours}:${minutes}:${seconds} ${ampm}`;
-let ans=document.getElementById(timer);
+let ans=document.getElementById("timer");
 var ans1=`${formattedDate, formattedTime}`;
 ans.textContent=ans1;
