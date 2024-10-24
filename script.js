@@ -19,4 +19,4 @@ hours = hours % 12 || 12; // Convert 0 (midnight) or 12 (noon) to 12-hour format
 const formattedDate = `${day}/${month}/${year}`;
 const formattedTime = `${hours}:${minutes}:${seconds} ${ampm}`;
 
-console.log(` ${formattedDate}, ${formattedTime}`);
+console.log(formattedDate, formattedTime);
